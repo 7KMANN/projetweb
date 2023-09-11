@@ -1,3 +1,15 @@
-#test {
- font-size:xx-large;
+
+
+
+
+
+
+#footer {
+    margin-top: 70px;
+    border-style: inset;
+ background-color: dimgrey;
+}
+#vide1 {
+    margin-top: 40px;
+    padding: 40px;
 }
