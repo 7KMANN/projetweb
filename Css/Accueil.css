@@ -21,10 +21,18 @@
     margin-top: 70px;
     border-style: inset;
     background-color: dimgrey;
+    min-height: 100px;
 }
 .container{
   font-size: large;
   margin-left: 20px;
+}
+.createdby{
+  font-weight: bold;
+}
+
+.names{
+  display: inline;
 }
 
 #vide1 {
