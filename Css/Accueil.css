@@ -4,8 +4,8 @@
  
     position: relative;
     animation-name: example;
-    animation-duration: 2s;  
-    animation-delay: 0s;
+    animation-duration: 0.8s;  
+    animation-delay: 0.4s;
     animation-fill-mode: both;
   }
   
@@ -19,8 +19,8 @@
  
     position: relative;
     animation-name: cardbottom;
-    animation-duration: 2s;  
-    animation-delay: 0s;
+    animation-duration: 0.8s;  
+    animation-delay: 0.4s;
     animation-fill-mode: both;
   }
   
