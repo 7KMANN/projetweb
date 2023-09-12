@@ -32,8 +32,10 @@
   
 /* IMPORTS */
 @font-face {
-  font-family: "Ubuntu";
-  src: url();
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Ubuntu.woff2') format(".woff2");
 }
 
 /*test*/
@@ -57,7 +59,8 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: 'Ubuntu',
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 
