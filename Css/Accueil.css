@@ -30,6 +30,12 @@
   }
 /*End Card Animation*/
   
+/* IMPORTS */
+@font-face {
+  font-family: "Ubuntu";
+  src: url();
+}
+
 /*test*/
 .card {background-color: #ddd; margin: 3rem;}
 
@@ -46,7 +52,13 @@
   box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
-
+.header{
+  background-color: gray;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu',
+}
 
 
 
