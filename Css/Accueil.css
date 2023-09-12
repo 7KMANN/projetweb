@@ -1,5 +1,18 @@
+/*Animation Tso*/
+#Card1 {
 
-
+ 
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;  
+    animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes example {
+    from {top: 0px; }
+    to {top: 20px; }
+  }
 
 
 
