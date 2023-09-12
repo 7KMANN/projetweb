@@ -37,8 +37,13 @@
 #footer {
     margin-top: 70px;
     border-style: inset;
- background-color: dimgrey;
+    background-color: dimgrey;
 }
+.container{
+  font-size: large;
+  margin-left: 20px;
+}
+
 #vide1 {
     margin-top: 40px;
     padding: 40px;
