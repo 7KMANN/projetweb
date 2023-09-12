@@ -59,7 +59,7 @@ src: url('../fonts/Ubuntu.woff2') format(".woff2");
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rubik Iso', cursive;
     font-weight: bold;
     }
 
@@ -113,3 +113,4 @@ a:hover{
     margin-top: 20px;
     padding: 20px;
 }
+/*titre Tso*/
