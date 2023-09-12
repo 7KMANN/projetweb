@@ -2,70 +2,82 @@
 #Card1 {
 
  
-    position: relative;
-    animation-name: example;
-    animation-duration: 0.8s;  
-    animation-delay: 0.4s;
-    animation-fill-mode: both;
-  }
-  
-  @keyframes example {
-    from {top: 0px; }
-    to {top: 20px; }
-  }
-
-  #Card2 {
-
- 
-    position: relative;
-    animation-name: cardbottom;
-    animation-duration: 0.8s;  
-    animation-delay: 0.4s;
-    animation-fill-mode: both;
-  }
-  
-  @keyframes cardbottom {
-     0%   {left: 0px; top: 20px;;}
-    100% { left: 0px; top: 0px;}
-  }
-/*End Card Animation*/
-  
-/* IMPORTS */
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-display: swap;
-  src: url('../fonts/Ubuntu.woff2') format(".woff2");
+  position: relative;
+  animation-name: example;
+  animation-duration: 0.8s;  
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
 }
 
-/*test*/
+@keyframes example {
+  from {top: 0px; }
+  to {top: 20px; }
+}
+
+#Card2 {
+
+
+  position: relative;
+  animation-name: cardbottom;
+  animation-duration: 0.8s;  
+  animation-delay: 0.4s;
+  animation-fill-mode: both;
+}
+
+@keyframes cardbottom {
+   0%   {left: 0px; top: 20px;;}
+  100% { left: 0px; top: 0px;}
+}
+/*End Card Animation*/
+
+/* IMPORTS */
+@font-face {
+font-family: 'Ubuntu';
+font-style: normal;
+font-display: swap;
+src: url('../fonts/Ubuntu.woff2') format(".woff2");
+}
+
+/*Card background*/
 .card {background-color: #ddd; margin: 3rem;}
 
 .card  {
   position: relative;
-
+  
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
- 
+  
   box-shadow: 20px 20px rgba(0,0,0,.15);
   transition: all .4s ease;
-}
-.card:hover {
+  }
+  .card:hover {
   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
   box-shadow: 10px 10px rgba(0,0,0,.25);
-}
-
-.header{
-  background-color: gray;
+  }
+  
+  .header{
+  background-color: #1C94AC;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
+  }
+
+/*End Card Background*/
+/*card shadow*/
+.card{
+  position: relative;
+  background: #1C94AC;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgb(11, 122, 144);
+  border: 2px solid #004F5F;
+  color: white;
+  
 }
 
 
-
-
+/*Shadow End*/
 
 a{
   color:inherit; 
