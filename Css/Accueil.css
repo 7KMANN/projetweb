@@ -36,6 +36,9 @@ a{
 }
 a:hover{
   color: darkgray;
+  transition: all 1s ease-in-out;
+  transform: scale(1.5);
+  
 }
 
 #footer {
